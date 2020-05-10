@@ -21,11 +21,12 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "set HTTPS=true&&react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "analyze": "source-map-explorer 'build/static/js/*.js'"
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start-https": "set HTTPS=true&&react-scripts start"
   },
   "husky": {
     "hooks": {
